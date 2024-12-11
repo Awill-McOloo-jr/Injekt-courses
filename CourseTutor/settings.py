@@ -66,9 +66,9 @@ WSGI_APPLICATION = 'CourseTutor.wsgi.application'
 DATABASES = {
     'default':  {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME':'coursetutor',
+        'NAME':'courses',
         'USER':'root',
-        'PASSWORD':'',
+        'PASSWORD':'tommie97',
         'HOST':'127.0.0.1',
         'PORT':'3306',
     }
